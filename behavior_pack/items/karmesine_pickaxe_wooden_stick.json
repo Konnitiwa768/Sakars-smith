@@ -7,10 +7,10 @@
     },
     "components": {
       "minecraft:icon": "textures/item/karmesine_pickaxe_wooden_stick",
-      "minecraft:mining_speed": 1,
-      "minecraft:durability": 100,
-      "minecraft:damage": 3,
-      "minecraft:efficiency": 1.0
+      "minecraft:mining_speed": 7,
+      "minecraft:durability": 1244,
+      "minecraft:damage": 7,
+      "minecraft:efficiency": 6.0
     }
   }
 }
