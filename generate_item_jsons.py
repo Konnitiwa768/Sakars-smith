@@ -13,7 +13,7 @@ ITEM_STATS = {
     "bone_pickaxe":      {"durability": 100,  "damage": 3, "efficiency": 3,  "mining_speed": 3},
     "wooden_sword":      {"durability": 59,   "damage": 4, "efficiency": 1,  "mining_speed": 1},
     "stone_sword":       {"durability": 131,  "damage": 5, "efficiency": 1,  "mining_speed": 1},
-    "karmesin_sword":       {"durability": 1244,  "damage": 9, "efficiency": 1,  "mining_speed": 1},
+    "karmesine_sword":       {"durability": 1244,  "damage": 9, "efficiency": 1,  "mining_speed": 1},
     "iron_sword":        {"durability": 250,  "damage": 6, "efficiency": 1,  "mining_speed": 1},
     "golden_sword":      {"durability": 32,   "damage": 4, "efficiency": 1,  "mining_speed": 1},
     "diamond_sword":     {"durability": 1561, "damage": 7, "efficiency": 1,  "mining_speed": 1},
