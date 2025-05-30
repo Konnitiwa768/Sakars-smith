@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "custom:karmesine_sword"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " I ",
+      " I ",
+      " I "
+    ],
+    "key": {
+      "I": {
+        "item": "custom:karmesine_ingot"
+      }
+    },
+    "result": {
+      "item": "custom:karmesine_sword",
+      "count": 1
+    }
+  }
+}

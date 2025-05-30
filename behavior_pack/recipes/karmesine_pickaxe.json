@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "custom:karmesine_pickaxe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "III",
+      " I ",
+      " I "
+    ],
+    "key": {
+      "I": {
+        "item": "custom:karmesine_ingot"
+      }
+    },
+    "result": {
+      "item": "custom:karmesine_pickaxe",
+      "count": 1
+    }
+  }
+}
