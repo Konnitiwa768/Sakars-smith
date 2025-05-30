@@ -8,9 +8,9 @@
     "components": {
       "minecraft:icon": "textures/item/netherrite_pickaxe_karmesine_stick",
       "minecraft:mining_speed": 9,
-      "minecraft:durability": 2031,
-      "minecraft:damage": 6,
-      "minecraft:efficiency": 9.0
+      "minecraft:durability": 1827,
+      "minecraft:damage": 16,
+      "minecraft:efficiency": 17.099999999999998
     }
   }
 }

@@ -8,9 +8,9 @@
     "components": {
       "minecraft:icon": "textures/item/bone_sword_karmesine_stick",
       "minecraft:mining_speed": 1,
-      "minecraft:durability": 100,
-      "minecraft:damage": 4,
-      "minecraft:efficiency": 1.0
+      "minecraft:durability": 90,
+      "minecraft:damage": 10,
+      "minecraft:efficiency": 1.9
     }
   }
 }

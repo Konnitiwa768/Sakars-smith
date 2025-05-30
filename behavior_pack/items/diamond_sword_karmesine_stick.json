@@ -8,9 +8,9 @@
     "components": {
       "minecraft:icon": "textures/item/diamond_sword_karmesine_stick",
       "minecraft:mining_speed": 1,
-      "minecraft:durability": 1561,
-      "minecraft:damage": 7,
-      "minecraft:efficiency": 1.0
+      "minecraft:durability": 1404,
+      "minecraft:damage": 18,
+      "minecraft:efficiency": 1.9
     }
   }
 }

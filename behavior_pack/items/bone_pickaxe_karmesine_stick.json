@@ -8,9 +8,9 @@
     "components": {
       "minecraft:icon": "textures/item/bone_pickaxe_karmesine_stick",
       "minecraft:mining_speed": 3,
-      "minecraft:durability": 100,
-      "minecraft:damage": 3,
-      "minecraft:efficiency": 3.0
+      "minecraft:durability": 90,
+      "minecraft:damage": 8,
+      "minecraft:efficiency": 5.699999999999999
     }
   }
 }
