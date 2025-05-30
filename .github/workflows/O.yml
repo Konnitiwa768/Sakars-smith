@@ -31,3 +31,4 @@ jobs:
       with:
         commit_message: "Auto: Generate combined textures for resourcepack"
         file_pattern: "Resourcepack/textures/item/*.png"
+        pull: true
