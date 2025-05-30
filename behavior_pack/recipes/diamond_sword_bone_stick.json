@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "custom:diamond_sword_bone_stick"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " I ",
+      " I ",
+      " S "
+    ],
+    "key": {
+      "I": {
+        "item": "custom:diamond_ingot"
+      },
+      "S": {
+        "item": "custom:bone_ingot"
+      }
+    },
+    "result": {
+      "item": "custom:diamond_sword_bone_stick",
+      "count": 1
+    }
+  }
+}

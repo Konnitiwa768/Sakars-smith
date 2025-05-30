@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "custom:netherrite_sword_netherrite_stick"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " I ",
+      " I ",
+      " S "
+    ],
+    "key": {
+      "I": {
+        "item": "custom:netherrite_ingot"
+      },
+      "S": {
+        "item": "custom:netherrite_ingot"
+      }
+    },
+    "result": {
+      "item": "custom:netherrite_sword_netherrite_stick",
+      "count": 1
+    }
+  }
+}

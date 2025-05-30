@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "custom:stone_pickaxe_netherrite_stick"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "III",
+      " S ",
+      " S "
+    ],
+    "key": {
+      "I": {
+        "item": "custom:stone_ingot"
+      },
+      "S": {
+        "item": "custom:netherrite_ingot"
+      }
+    },
+    "result": {
+      "item": "custom:stone_pickaxe_netherrite_stick",
+      "count": 1
+    }
+  }
+}

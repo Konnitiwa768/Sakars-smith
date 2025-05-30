@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "custom:karmesine_sword_diamond_stick"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " I ",
+      " I ",
+      " S "
+    ],
+    "key": {
+      "I": {
+        "item": "custom:karmesine_ingot"
+      },
+      "S": {
+        "item": "custom:diamond_ingot"
+      }
+    },
+    "result": {
+      "item": "custom:karmesine_sword_diamond_stick",
+      "count": 1
+    }
+  }
+}
