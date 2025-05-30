@@ -1,12 +1,12 @@
-name: Combine Textures & Generate Item JSON
+name: Generate Item JSONs
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'parts/*.png'
-      - '.github/workflows/combine_textures_and_json.yml'
-      - 'combine_textures_and_json.py'
+      - '.github/workflows/generate_item_jsons.yml'
+      - 'generate_item_jsons.py'
 
 jobs:
   generate:
@@ -20,16 +20,11 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Install Pillow
-      run: pip install Pillow
+    - name: Generate item jsons
+      run: python generate_item_jsons.py
 
-    - name: Generate textures and item json
-      run: python combine_textures_and_json.py
-
-    - name: Commit and push results
+    - name: Commit and push generated jsons
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: "Auto: Generate textures & item json"
-        file_pattern: |
-          Resourcepack/textures/item/*.png
-          behavior_pack/items/*.json
+        commit_message: "Auto: Generate item jsons"
+        file_pattern: "behavior_pack/items/*.json"
