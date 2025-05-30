@@ -1,0 +1,14 @@
+{
+  "format_version": "1.19.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "sakarsmith:karmesine_ore",
+      "properties": {}
+    },
+    "components": {
+      "minecraft:destroy_time": 3.0,
+      "minecraft:explosion_resistance": 15.0,
+      "minecraft:loot": "loot_tables/blocks/karmesine_ore.json"
+    }
+  }
+}
