@@ -1,32 +1,20 @@
-name: Combine Textures
+import os
+from PIL import Image
 
-on:
-  workflow_dispatch:
-  push:
-    paths:
-      - 'parts/**.png'
-      - '.github/workflows/combine_textures.yml'
+parts_dir = "parts"
+output_dir = "Resourcepack/textures/item"
+os.makedirs(output_dir, exist_ok=True)
 
-jobs:
-  combine:
-    runs-on: ubuntu-latest
+sticks = [f for f in os.listdir(parts_dir) if f.endswith("stick.png")]
+fronts = [f for f in os.listdir(parts_dir) if f.endswith("pickaxe.png") or f.endswith("sword.png")]
 
-    steps:
-    - uses: actions/checkout@v3
-
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
-
-    - name: Install Pillow
-      run: pip install Pillow
-
-    - name: Generate combined textures
-      run: python combine_textures.py
-
-    - name: Upload generated textures
-      uses: stefanzweifel/git-auto-commit-action@v5
-      with:
-        commit_message: "Generate combined textures"
-        file_pattern: "resourcepack/textures/item/*.png"
+for stick in sticks:
+    stick_img = Image.open(os.path.join(parts_dir, stick)).convert("RGBA")
+    for front in fronts:
+        front_img = Image.open(os.path.join(parts_dir, front)).convert("RGBA")
+        # サイズが異なる場合、stickに合わせてリサイズ
+        if front_img.size != stick_img.size:
+            front_img = front_img.resize(stick_img.size)
+        combined = Image.alpha_composite(stick_img, front_img)
+        output_name = f"{os.path.splitext(front)[0]}_{os.path.splitext(stick)[0]}.png"
+        combined.save(os.path.join(output_dir, output_name))
