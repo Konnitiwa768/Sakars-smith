@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:stone_sword_iron_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/stone_sword_iron_stick",
+      "minecraft:mining_speed": 1,
+      "minecraft:durability": 196,
+      "minecraft:damage": 6,
+      "minecraft:efficiency": 1.15
+    }
+  }
+}

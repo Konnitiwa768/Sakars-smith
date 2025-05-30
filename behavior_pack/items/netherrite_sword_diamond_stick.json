@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:netherrite_sword_diamond_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/netherrite_sword_diamond_stick",
+      "minecraft:mining_speed": 1,
+      "minecraft:durability": 4062,
+      "minecraft:damage": 11,
+      "minecraft:efficiency": 1.4
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:iron_pickaxe_bone_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/iron_pickaxe_bone_stick",
+      "minecraft:mining_speed": 6,
+      "minecraft:durability": 325,
+      "minecraft:damage": 4,
+      "minecraft:efficiency": 6.6000000000000005
+    }
+  }
+}

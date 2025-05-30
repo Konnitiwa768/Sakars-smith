@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:netherrite_sword_golden_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/netherrite_sword_golden_stick",
+      "minecraft:mining_speed": 1,
+      "minecraft:durability": 1624,
+      "minecraft:damage": 12,
+      "minecraft:efficiency": 1.3
+    }
+  }
+}

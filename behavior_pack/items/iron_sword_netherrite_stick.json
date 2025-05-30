@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:iron_sword_netherrite_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/iron_sword_netherrite_stick",
+      "minecraft:mining_speed": 1,
+      "minecraft:durability": 625,
+      "minecraft:damage": 12,
+      "minecraft:efficiency": 2.0
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:golden_sword_wooden_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/golden_sword_wooden_stick",
+      "minecraft:mining_speed": 1,
+      "minecraft:durability": 32,
+      "minecraft:damage": 4,
+      "minecraft:efficiency": 1.0
+    }
+  }
+}

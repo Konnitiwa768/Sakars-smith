@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:iron_pickaxe_golden_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/iron_pickaxe_golden_stick",
+      "minecraft:mining_speed": 6,
+      "minecraft:durability": 200,
+      "minecraft:damage": 6,
+      "minecraft:efficiency": 7.800000000000001
+    }
+  }
+}

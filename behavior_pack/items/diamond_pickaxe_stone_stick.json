@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:diamond_pickaxe_stone_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/diamond_pickaxe_stone_stick",
+      "minecraft:mining_speed": 8,
+      "minecraft:durability": 1873,
+      "minecraft:damage": 5,
+      "minecraft:efficiency": 8.4
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:diamond_sword_stone_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/diamond_sword_stone_stick",
+      "minecraft:mining_speed": 1,
+      "minecraft:durability": 1873,
+      "minecraft:damage": 7,
+      "minecraft:efficiency": 1.05
+    }
+  }
+}

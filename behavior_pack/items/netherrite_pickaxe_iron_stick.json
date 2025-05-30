@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:netherrite_pickaxe_iron_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/netherrite_pickaxe_iron_stick",
+      "minecraft:mining_speed": 9,
+      "minecraft:durability": 3046,
+      "minecraft:damage": 7,
+      "minecraft:efficiency": 10.35
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:wooden_sword_bone_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/wooden_sword_bone_stick",
+      "minecraft:mining_speed": 1,
+      "minecraft:durability": 76,
+      "minecraft:damage": 4,
+      "minecraft:efficiency": 1.1
+    }
+  }
+}

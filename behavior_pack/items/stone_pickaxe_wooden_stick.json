@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:stone_pickaxe_wooden_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/stone_pickaxe_wooden_stick",
+      "minecraft:mining_speed": 4,
+      "minecraft:durability": 131,
+      "minecraft:damage": 3,
+      "minecraft:efficiency": 4.0
+    }
+  }
+}
