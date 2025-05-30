@@ -27,4 +27,4 @@ jobs:
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: "Auto: Generate item jsons"
-        file_pattern: "behavior_pack/recipe/*.json"
+        file_pattern: "behavior_pack/recipes/*.json"
