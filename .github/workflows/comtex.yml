@@ -1,15 +1,15 @@
-name: Combine Textures for Resourcepack
+name: Combine Textures & Generate Item JSON
 
 on:
   workflow_dispatch:
   push:
     paths:
       - 'parts/*.png'
-      - '.github/workflows/combine_textures.yml'
-      - 'combine_textures.py'
+      - '.github/workflows/combine_textures_and_json.yml'
+      - 'combine_textures_and_json.py'
 
 jobs:
-  combine:
+  generate:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,11 +23,13 @@ jobs:
     - name: Install Pillow
       run: pip install Pillow
 
-    - name: Generate combined textures
-      run: python combine_textures.py
+    - name: Generate textures and item json
+      run: python combine_textures_and_json.py
 
-    - name: Commit and push generated textures
+    - name: Commit and push results
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: "Auto: Generate combined textures for resourcepack"
-        file_pattern: "Resourcepack/textures/item/*.png"
+        commit_message: "Auto: Generate textures & item json"
+        file_pattern: |
+          Resourcepack/textures/item/*.png
+          behavior_pack/items/*.json
