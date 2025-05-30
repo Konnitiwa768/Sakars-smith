@@ -1,0 +1,15 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "custom:karmesine_ingot",
+      "category": "Misc"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/karmesine_ingot",
+      "minecraft:mining_speed": 1.5,
+      "minecraft:damage": 2,
+      "minecraft:efficiency": 1.5
+    }
+  }
+}
