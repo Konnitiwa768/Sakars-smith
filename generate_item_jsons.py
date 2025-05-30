@@ -28,7 +28,7 @@ STICK_MULTIPLIERS = {
     "iron_stick":       {"durability": 1.5, "damage": 1.2, "efficiency": 1.15},
     "golden_stick":     {"durability": 0.8, "damage": 1.5, "efficiency": 1.3},
     "diamond_stick":    {"durability": 2.0, "damage": 1.4, "efficiency": 1.4},
-    "karmesin__stick":     {"durability": 0.95, "damage": 2.7, "efficiency": 1.9},
+    "karmesin_stick":     {"durability": 0.95, "damage": 2.7, "efficiency": 1.9},
     "netherrite_stick": {"durability": 2.5, "damage": 2.0, "efficiency": 2.0},
     "bone_stick":       {"durability": 1.3, "damage": 1.2, "efficiency": 1.1},
     # 必要に応じて追加
