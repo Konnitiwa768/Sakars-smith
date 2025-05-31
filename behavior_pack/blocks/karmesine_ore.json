@@ -2,7 +2,7 @@
   "format_version": "1.19.20",
   "minecraft:block": {
     "description": {
-      "identifier": "custom:karmesine_ore",
+      "identifier": "sakarsmith:karmesine_ore",
       "properties": {}
     },
     "components": {
