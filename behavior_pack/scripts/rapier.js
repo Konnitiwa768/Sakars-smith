@@ -15,7 +15,7 @@ world.afterEvents.entityHit.subscribe(ev => {
         const armor = hitEntity.getComponent("minecraft:armor")?.protection || 0;
         // 追加ダメージ（例：防御力の0.5倍）
         if (typeof hitEntity.applyDamage === "function" && armor > 0) {
-            hitEntity.applyDamage(armor * 0.5, { cause: "custom", damagingEntity });
+            hitEntity.applyDamage(armor * 0.3, { cause: "custom", damagingEntity });
         }
     }
 });
