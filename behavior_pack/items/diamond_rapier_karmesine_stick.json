@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sakarsmith:diamond_rapier_karmesine_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/diamond_rapier_karmesine_stick",
+      "minecraft:mining_speed": 1,
+      "minecraft:durability": 1890,
+      "minecraft:damage": 10,
+      "minecraft:efficiency": 15.2
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sakarsmith:bone_rapier_stone_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/bone_rapier_stone_stick",
+      "minecraft:mining_speed": 1,
+      "minecraft:durability": 156,
+      "minecraft:damage": 3,
+      "minecraft:efficiency": 3.1500000000000004
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sakarsmith:karmesin_rapier_netherrite_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/karmesin_rapier_netherrite_stick",
+      "minecraft:mining_speed": 1,
+      "minecraft:durability": 250,
+      "minecraft:damage": 6,
+      "minecraft:efficiency": 2.0
+    }
+  }
+}

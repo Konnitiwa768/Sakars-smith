@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sakarsmith:iron_rapier_karmesine_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/iron_rapier_karmesine_stick",
+      "minecraft:mining_speed": 1,
+      "minecraft:durability": 270,
+      "minecraft:damage": 10,
+      "minecraft:efficiency": 11.399999999999999
+    }
+  }
+}

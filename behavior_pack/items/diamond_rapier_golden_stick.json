@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sakarsmith:diamond_rapier_golden_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/diamond_rapier_golden_stick",
+      "minecraft:mining_speed": 1,
+      "minecraft:durability": 1680,
+      "minecraft:damage": 6,
+      "minecraft:efficiency": 10.4
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sakarsmith:wooden_rapier_wooden_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/wooden_rapier_wooden_stick",
+      "minecraft:mining_speed": 1,
+      "minecraft:durability": 85,
+      "minecraft:damage": 2,
+      "minecraft:efficiency": 2.0
+    }
+  }
+}

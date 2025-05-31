@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sakarsmith:netherrite_rapier_golden_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/netherrite_rapier_golden_stick",
+      "minecraft:mining_speed": 1,
+      "minecraft:durability": 2080,
+      "minecraft:damage": 7,
+      "minecraft:efficiency": 11.700000000000001
+    }
+  }
+}

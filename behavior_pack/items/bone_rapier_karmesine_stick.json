@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sakarsmith:bone_rapier_karmesine_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/bone_rapier_karmesine_stick",
+      "minecraft:mining_speed": 1,
+      "minecraft:durability": 117,
+      "minecraft:damage": 8,
+      "minecraft:efficiency": 5.699999999999999
+    }
+  }
+}

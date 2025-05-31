@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sakarsmith:netherrite_rapier_wooden_stick",
+      "category": "Tools"
+    },
+    "components": {
+      "minecraft:icon": "textures/item/netherrite_rapier_wooden_stick",
+      "minecraft:mining_speed": 1,
+      "minecraft:durability": 2600,
+      "minecraft:damage": 5,
+      "minecraft:efficiency": 9.0
+    }
+  }
+}
