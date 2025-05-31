@@ -2,7 +2,7 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "custom:karmesine_ingot",
+      "identifier": "sakarsmith:karmesine_ingot",
       "category": "Misc"
     },
     "components": {
