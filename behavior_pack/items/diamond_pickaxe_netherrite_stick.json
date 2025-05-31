@@ -2,7 +2,7 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "custom:diamond_pickaxe_netherrite_stick",
+      "identifier": "sakarsmith:diamond_pickaxe_netherrite_stick",
       "category": "Tools"
     },
     "components": {

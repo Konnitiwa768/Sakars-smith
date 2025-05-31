@@ -2,7 +2,7 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "custom:iron_pickaxe_karmesine_stick",
+      "identifier": "sakarsmith:iron_pickaxe_karmesine_stick",
       "category": "Tools"
     },
     "components": {

@@ -2,7 +2,7 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "custom:wooden_sword_diamond_stick",
+      "identifier": "sakarsmith:wooden_sword_diamond_stick",
       "category": "Tools"
     },
     "components": {

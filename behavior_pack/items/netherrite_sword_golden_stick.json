@@ -2,7 +2,7 @@
   "format_version": "1.20.0",
   "minecraft:item": {
     "description": {
-      "identifier": "custom:netherrite_sword_golden_stick",
+      "identifier": "sakarsmith:netherrite_sword_golden_stick",
       "category": "Tools"
     },
     "components": {
