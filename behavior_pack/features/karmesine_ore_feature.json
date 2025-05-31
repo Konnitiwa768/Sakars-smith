@@ -4,10 +4,10 @@
     "description": {
       "identifier": "sakarsmith:karmesine_ore_feature"
     },
-    "count": 1, // 1チャンクに1箇所
+    "count": 1,
     "places_feature": "sakarsmith:karmesine_ore",
     "distribution": {
-      "iterations": 2, // 2チャンクで2回分
+      "iterations": 2,
       "x": {
         "min": 0,
         "max": 15
