@@ -6,7 +6,10 @@ output_dir = "Resourcepack/textures/item"
 os.makedirs(output_dir, exist_ok=True)
 
 sticks = [f for f in os.listdir(parts_dir) if f.endswith("stick.png")]
-fronts = [f for f in os.listdir(parts_dir) if f.endswith("pickaxe.png") or f.endswith("sword.png")]
+fronts = [
+    f for f in os.listdir(parts_dir)
+    if f.endswith("pickaxe.png") or f.endswith("sword.png") or f.endswith("rapier.png")
+]
 
 for stick in sticks:
     stick_img = Image.open(os.path.join(parts_dir, stick)).convert("RGBA")
