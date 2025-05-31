@@ -1,4 +1,4 @@
 # Sakars-smith
 https://chatgpt.com
 
-https://wrtd.jp/character
+https://wrtn.jp/character
