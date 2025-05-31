@@ -63,7 +63,7 @@ for stick in sticks:
             "format_version": "1.20.0",
             "minecraft:item": {
                 "description": {
-                    "identifier": f"custom:{identifier}",
+                    "identifier": f"sakarsmith:{identifier}",
                     "category": "Tools"
                 },
                 "components": {
