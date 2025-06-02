@@ -2,20 +2,18 @@ import os
 import json
 
 def get_ingot(front_base):
-    # diamond_pickaxe/sword → diamond
-    # karmesine_pickaxe/sword → karmesine_ingot
     if front_base.startswith("diamond"):
         return "diamond"
     elif front_base.startswith("karmesine"):
         return "karmesine_ingot"
     else:
-        return front_base.replace("_pickaxe", "_ingot").replace("_sword", "_ingot")
+        return front_base.replace("_pickaxe", "_ingot").replace("_sword", "_ingot").replace("_rapier", "_ingot")
 
 def get_ingot_prefix(ingot):
     if ingot == "karmesine_ingot":
         return "custom:"
     elif ingot == "diamond":
-        return ""  # ダイヤモンドはprefixなし
+        return ""
     else:
         return "minecraft:"
 
@@ -23,7 +21,7 @@ parts_dir = "parts"
 json_out_dir = "behavior_pack/recipes"
 os.makedirs(json_out_dir, exist_ok=True)
 
-fronts = [f for f in os.listdir(parts_dir) if f.endswith("pickaxe.png") or f.endswith("sword.png")]
+fronts = [f for f in os.listdir(parts_dir) if f.endswith("pickaxe.png") or f.endswith("sword.png") or f.endswith("rapier.png")]
 
 for front in fronts:
     front_base = os.path.splitext(front)[0]
@@ -32,9 +30,7 @@ for front in fronts:
     ingot = get_ingot(front_base)
     ingot_prefix = get_ingot_prefix(ingot)
 
-    # レシピパターン例（stickを使わない形にアレンジ。用途に応じて調整してください）
     if "pickaxe" in front_base:
-        # 例：全てインゴットで埋める
         pattern = [
             "III",
             " I ",
@@ -48,6 +44,16 @@ for front in fronts:
             " I ",
             " I ",
             " I "
+        ]
+        key = {
+            "I": {"item": f"{ingot_prefix}{ingot}"},
+        }
+    elif "rapier" in front_base:
+        # レイピア独自のレシピ例（要調整）
+        pattern = [
+            "  I",
+            " I ",
+            "I  "
         ]
         key = {
             "I": {"item": f"{ingot_prefix}{ingot}"},
