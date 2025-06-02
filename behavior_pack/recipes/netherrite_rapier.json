@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "custom:netherrite_rapier"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  I",
+      " I ",
+      "I  "
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:netherrite_ingot"
+      }
+    },
+    "result": {
+      "item": "custom:netherrite_rapier",
+      "count": 1
+    }
+  }
+}

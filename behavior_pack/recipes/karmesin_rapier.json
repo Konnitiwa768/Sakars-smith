@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "custom:karmesin_rapier"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  I",
+      " I ",
+      "I  "
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:karmesin_ingot"
+      }
+    },
+    "result": {
+      "item": "custom:karmesin_rapier",
+      "count": 1
+    }
+  }
+}

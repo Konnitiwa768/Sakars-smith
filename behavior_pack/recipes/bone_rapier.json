@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "custom:bone_rapier"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  I",
+      " I ",
+      "I  "
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:bone_ingot"
+      }
+    },
+    "result": {
+      "item": "custom:bone_rapier",
+      "count": 1
+    }
+  }
+}

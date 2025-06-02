@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "custom:diamond_rapier"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  I",
+      " I ",
+      "I  "
+    ],
+    "key": {
+      "I": {
+        "item": "diamond"
+      }
+    },
+    "result": {
+      "item": "custom:diamond_rapier",
+      "count": 1
+    }
+  }
+}
