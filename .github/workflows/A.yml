@@ -23,5 +23,6 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: packs.mcaddon
+          tags: v1.0.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
