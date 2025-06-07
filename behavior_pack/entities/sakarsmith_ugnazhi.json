@@ -38,7 +38,7 @@
       "sequence": [
         {
           "event": "sakarsmith:check_evolve",
-          "condition": "query.life_time > 15360"
+          "condition": "query.life_time > 30720"
         }
       ]
     }
