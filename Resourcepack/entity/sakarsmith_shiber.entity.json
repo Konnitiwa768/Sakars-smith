@@ -1,0 +1,11 @@
+{
+  "format_version": "1.10",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "sakarsmith:shiber",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/shiber" },
+      "geometry": { "default": "geometry.shiber" }
+    }
+  }
+}
