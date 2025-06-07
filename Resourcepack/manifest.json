@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Sakars-smith リソースパック",
+    "name": "Sakars-smith RP",
+    "uuid": "b9a9f0de-c5b6-4e3f-9f4a-4f2d3c6d7b9a",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Main resource module",
+      "type": "resources",
+      "uuid": "d2c7e2f1-7e2d-4b6e-8c4a-5a1b2e3f4c5d",
+      "version": [1, 0, 0]
+    }
+  ]
+}
