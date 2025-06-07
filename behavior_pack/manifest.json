@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Sakars-smith ビヘイビアパック",
+    "name": "Sakars-smith BP",
+    "uuid": "3b4e1f1c-b23b-4d2b-95a8-47e1c0a1b1c2",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Main module",
+      "type": "data",
+      "uuid": "e7f7c4de-2b62-4a0e-9b2b-d3e9d7fa1a6d",
+      "version": [1, 0, 0]
+    }
+  ]
+}
