@@ -2,3 +2,4 @@
 https://chatgpt.com
 
 https://wrtn.jp/character
+https://google.com
