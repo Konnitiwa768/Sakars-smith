@@ -1,0 +1,46 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "sakarsmith:ugnazhi",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": { "family": ["monster"] },
+      "minecraft:nameable": {},
+      "minecraft:health": { "value": 20, "max": 20 },
+      "minecraft:attack": { "damage": 4 },
+      "minecraft:loot": "loot_tables/entities/sakarsmith_ugnazhi.json"
+    },
+    "component_groups": {
+      "sakarsmith:evolve": {
+        "minecraft:transformation": {
+          "into": "sakarsmith:shiber"
+        }
+      }
+    },
+    "events": {
+      "sakarsmith:check_evolve": {
+        "add": { "component_groups": [ "sakarsmith:evolve" ] }
+      }
+    },
+    "minecraft:ai": {
+      "goals": [
+        { "priority": 1, "goal": "minecraft:melee_attack" },
+        { "priority": 2, "goal": "minecraft:look_at_player" },
+        { "priority": 3, "goal": "minecraft:random_stroll" },
+        { "priority": 4, "goal": "minecraft:look_at_entity", "entity_types": ["player"] }
+      ]
+    },
+    "minecraft:entity_spawned": {
+      "sequence": [
+        {
+          "event": "sakarsmith:check_evolve",
+          "condition": "query.life_time > 15360"
+        }
+      ]
+    }
+  }
+}
