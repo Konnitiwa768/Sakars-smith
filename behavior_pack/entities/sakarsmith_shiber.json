@@ -1,0 +1,27 @@
+{
+  "format_version": "1.19.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "sakarsmith:shiber",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": { "family": ["monster"] },
+      "minecraft:health": { "value": 54, "max": 54 },
+      "minecraft:attack": { "damage": 14 },
+      "minecraft:loot": "loot_tables/entities/sakarsmith_shiber.json",
+      "minecraft:behavior.swim": {},
+      "minecraft:movement": { "value": 0.3 }
+    },
+    "minecraft:ai": {
+      "goals": [
+        { "priority": 1, "goal": "minecraft:melee_attack" },
+        { "priority": 2, "goal": "minecraft:random_swim" },
+        { "priority": 3, "goal": "minecraft:look_at_player" },
+        { "priority": 4, "goal": "minecraft:random_stroll" }
+      ]
+    }
+  }
+}
