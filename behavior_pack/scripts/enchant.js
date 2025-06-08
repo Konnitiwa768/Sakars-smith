@@ -23,6 +23,16 @@ const ENCHANTS = [
         effect: "unbreakable"
     },
     {
+        key: "猛毒",
+        display: "§b猛毒",
+        ability: "相手に毒",
+        material: "minecraft:spider_eye",
+        perLevel: 3,
+        max: 6,
+        color: "§2",
+        effect: "speed"
+    },
+    {
         key: "治癒力",
         display: "§a治癒力",
         ability: "HP自動回復（常時Regeneration付与）",
@@ -181,6 +191,10 @@ world.afterEvents.entityHurt.subscribe(event => {
 
     const enchantData = JSON.parse(heldItem.getDynamicProperty("custom_enchant"));
     switch (enchantData.effect) {
+        case "debuff_poison":
+            // 毒を付与（Lvごとに秒数や強さを調整）
+            target.addEffect("poison", 40 * enchantData.level, enchantData.level - 1, false);
+            break;
         case "speed":
             attacker.addEffect("speed", 40, enchantData.level, false);
             break;
