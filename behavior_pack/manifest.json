@@ -3,7 +3,7 @@
   "header": {
     "description": "Sakars-smith ビヘイビアパック",
     "name": "Sakars-smith BP",
-    "uuid": "3b4e1f1c-b23b-4d2b-95a8-47e1c0a1b1c2",
+    "uuid": "6875f9dd-234f-42f1-a53b-d8b6c735f8f5",
     "version": [1, 0, 0],
     "min_engine_version": [1, 20, 0]
   },
@@ -11,8 +11,42 @@
     {
       "description": "Main module",
       "type": "data",
-      "uuid": "e7f7c4de-2b62-4a0e-9b2b-d3e9d7fa1a6d",
+      "uuid": "937f9e40-630f-49bb-bb04-be051f4bd62f",
       "version": [1, 0, 0]
+    },
+    {
+      "description": "Script module (main)",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "b9aeab6a-b0b3-4788-9cf8-3f7f15a30db0",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    },
+    {
+      "description": "rapier.js physics engine",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "b2222222-2222-4222-8222-222222222222",
+      "version": [1, 0, 0],
+      "entry": "scripts/rapier.js"
+    },
+    {
+      "description": "enchant.js game library",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "2341e2f1-8f63-4945-a805-e5782f487083",
+      "version": [1, 0, 0],
+      "entry": "scripts/enchant.js"
     }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.10.0-beta"
+    }
+  ],
+  "capabilities": [
+    "script_eval",
+    "experimental_gameplay"
   ]
 }
