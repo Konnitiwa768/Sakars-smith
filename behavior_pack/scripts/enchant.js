@@ -33,6 +33,26 @@ const ENCHANTS = [
         effect: "speed"
     },
     {
+        key: "嘔吐",
+        display: "§b嘔吐",
+        ability: "相手に嘔吐させる",
+        material: "minecraft:poisonous_potato",
+        perLevel: 3,
+        max: 6,
+        color: "§2",
+        effect: "outo"
+    },
+    {
+        key: "鉛玉",
+        display: "§9鉛玉",
+        ability: "相手に鈍化",
+        material: "minecraft:chorus_fruit",
+        perLevel: 3,
+        max: 6,
+        color: "§9",
+        effect: "namari"
+    },
+    {
         key: "治癒力",
         display: "§a治癒力",
         ability: "HP自動回復（常時Regeneration付与）",
@@ -194,6 +214,14 @@ world.afterEvents.entityHurt.subscribe(event => {
         case "debuff_poison":
             // 毒を付与（Lvごとに秒数や強さを調整）
             target.addEffect("poison", 40 * enchantData.level, enchantData.level - 1, false);
+            break;
+        case "outo":
+            // 吐き気を付与（Lvごとに秒数や強さを調整）
+            target.addEffect("nausea", 80 * enchantData.level, enchantData.level - 1, false);
+            break;
+        case "namari":
+            // 鈍化を付与（Lvごとに秒数や強さを調整）
+            target.addEffect("poison", 90 * enchantData.level, enchantData.level - 1, false);
             break;
         case "speed":
             attacker.addEffect("speed", 40, enchantData.level, false);
