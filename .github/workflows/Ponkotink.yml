@@ -1,0 +1,30 @@
+name: Generate Item JSONs
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'parts/*.png'
+      - '.github/workflows/Recipe.yml'
+      - 'generate_recipe_jsons.py'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Generate item jsons
+      run: python unko.py
+      
+    - name: Commit and push generated jsons
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Auto: Generate item jsons"
+        file_pattern: "Resourcepack/"
