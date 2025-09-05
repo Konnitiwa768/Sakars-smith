@@ -1,0 +1,561 @@
+{
+  "resource_pack_name": "unkoooooooo",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "sakarsmith:diamond_rapier_netherrite_stick": {
+      "textures": "textures/item/diamond_rapier_netherrite_stick"
+    },
+    "sakarsmith:iron_sword_bone_stick": {
+      "textures": "textures/item/iron_sword_bone_stick"
+    },
+    "sakarsmith:iron_rapier_karmesine_stick": {
+      "textures": "textures/item/iron_rapier_karmesine_stick"
+    },
+    "sakarsmith:iron_sword_iron_stick": {
+      "textures": "textures/item/iron_sword_iron_stick"
+    },
+    "sakarsmith:iron_pickaxe_stone_stick": {
+      "textures": "textures/item/iron_pickaxe_stone_stick"
+    },
+    "sakarsmith:wooden_rapier_bone_stick": {
+      "textures": "textures/item/wooden_rapier_bone_stick"
+    },
+    "sakarsmith:stone_sword_bone_stick": {
+      "textures": "textures/item/stone_sword_bone_stick"
+    },
+    "sakarsmith:iron_pickaxe_bone_stick": {
+      "textures": "textures/item/iron_pickaxe_bone_stick"
+    },
+    "sakarsmith:diamond_rapier_bone_stick": {
+      "textures": "textures/item/diamond_rapier_bone_stick"
+    },
+    "sakarsmith:wooden_rapier_netherrite_stick": {
+      "textures": "textures/item/wooden_rapier_netherrite_stick"
+    },
+    "sakarsmith:karmesine_sword_stone_stick": {
+      "textures": "textures/item/karmesine_sword_stone_stick"
+    },
+    "sakarsmith:wooden_sword_iron_stick": {
+      "textures": "textures/item/wooden_sword_iron_stick"
+    },
+    "sakarsmith:iron_sword_diamond_stick": {
+      "textures": "textures/item/iron_sword_diamond_stick"
+    },
+    "sakarsmith:diamond_rapier_diamond_stick": {
+      "textures": "textures/item/diamond_rapier_diamond_stick"
+    },
+    "sakarsmith:netherrite_pickaxe_golden_stick": {
+      "textures": "textures/item/netherrite_pickaxe_golden_stick"
+    },
+    "sakarsmith:bone_sword_wooden_stick": {
+      "textures": "textures/item/bone_sword_wooden_stick"
+    },
+    "sakarsmith:netherrite_pickaxe_diamond_stick": {
+      "textures": "textures/item/netherrite_pickaxe_diamond_stick"
+    },
+    "sakarsmith:netherrite_rapier_netherrite_stick": {
+      "textures": "textures/item/netherrite_rapier_netherrite_stick"
+    },
+    "sakarsmith:stone_pickaxe_stone_stick": {
+      "textures": "textures/item/stone_pickaxe_stone_stick"
+    },
+    "sakarsmith:golden_pickaxe_bone_stick": {
+      "textures": "textures/item/golden_pickaxe_bone_stick"
+    },
+    "sakarsmith:netherrite_pickaxe_karmesine_stick": {
+      "textures": "textures/item/netherrite_pickaxe_karmesine_stick"
+    },
+    "sakarsmith:iron_sword_stone_stick": {
+      "textures": "textures/item/iron_sword_stone_stick"
+    },
+    "sakarsmith:diamond_pickaxe_wooden_stick": {
+      "textures": "textures/item/diamond_pickaxe_wooden_stick"
+    },
+    "sakarsmith:iron_sword_netherrite_stick": {
+      "textures": "textures/item/iron_sword_netherrite_stick"
+    },
+    "sakarsmith:wooden_rapier_karmesine_stick": {
+      "textures": "textures/item/wooden_rapier_karmesine_stick"
+    },
+    "sakarsmith:stone_sword_stone_stick": {
+      "textures": "textures/item/stone_sword_stone_stick"
+    },
+    "sakarsmith:iron_pickaxe_wooden_stick": {
+      "textures": "textures/item/iron_pickaxe_wooden_stick"
+    },
+    "sakarsmith:gold_rapier_karmesine_stick": {
+      "textures": "textures/item/gold_rapier_karmesine_stick"
+    },
+    "sakarsmith:iron_rapier_netherrite_stick": {
+      "textures": "textures/item/iron_rapier_netherrite_stick"
+    },
+    "sakarsmith:karmesine_sword_iron_stick": {
+      "textures": "textures/item/karmesine_sword_iron_stick"
+    },
+    "sakarsmith:bone_pickaxe_wooden_stick": {
+      "textures": "textures/item/bone_pickaxe_wooden_stick"
+    },
+    "sakarsmith:wooden_sword_golden_stick": {
+      "textures": "textures/item/wooden_sword_golden_stick"
+    },
+    "sakarsmith:golden_pickaxe_wooden_stick": {
+      "textures": "textures/item/golden_pickaxe_wooden_stick"
+    },
+    "sakarsmith:wooden_rapier_iron_stick": {
+      "textures": "textures/item/wooden_rapier_iron_stick"
+    },
+    "sakarsmith:bone_pickaxe_karmesine_stick": {
+      "textures": "textures/item/bone_pickaxe_karmesine_stick"
+    },
+    "sakarsmith:wooden_sword_diamond_stick": {
+      "textures": "textures/item/wooden_sword_diamond_stick"
+    },
+    "sakarsmith:netherrite_sword_netherrite_stick": {
+      "textures": "textures/item/netherrite_sword_netherrite_stick"
+    },
+    "sakarsmith:bone_sword_golden_stick": {
+      "textures": "textures/item/bone_sword_golden_stick"
+    },
+    "sakarsmith:golden_sword_netherrite_stick": {
+      "textures": "textures/item/golden_sword_netherrite_stick"
+    },
+    "sakarsmith:iron_sword_golden_stick": {
+      "textures": "textures/item/iron_sword_golden_stick"
+    },
+    "sakarsmith:bone_pickaxe_bone_stick": {
+      "textures": "textures/item/bone_pickaxe_bone_stick"
+    },
+    "sakarsmith:bone_sword_bone_stick": {
+      "textures": "textures/item/bone_sword_bone_stick"
+    },
+    "sakarsmith:stone_pickaxe_diamond_stick": {
+      "textures": "textures/item/stone_pickaxe_diamond_stick"
+    },
+    "sakarsmith:stone_pickaxe_netherrite_stick": {
+      "textures": "textures/item/stone_pickaxe_netherrite_stick"
+    },
+    "sakarsmith:diamond_rapier_karmesine_stick": {
+      "textures": "textures/item/diamond_rapier_karmesine_stick"
+    },
+    "sakarsmith:gold_rapier_bone_stick": {
+      "textures": "textures/item/gold_rapier_bone_stick"
+    },
+    "sakarsmith:bone_sword_netherrite_stick": {
+      "textures": "textures/item/bone_sword_netherrite_stick"
+    },
+    "sakarsmith:iron_rapier_wooden_stick": {
+      "textures": "textures/item/iron_rapier_wooden_stick"
+    },
+    "sakarsmith:iron_rapier_diamond_stick": {
+      "textures": "textures/item/iron_rapier_diamond_stick"
+    },
+    "sakarsmith:diamond_pickaxe_karmesine_stick": {
+      "textures": "textures/item/diamond_pickaxe_karmesine_stick"
+    },
+    "sakarsmith:wooden_rapier_diamond_stick": {
+      "textures": "textures/item/wooden_rapier_diamond_stick"
+    },
+    "sakarsmith:stone_sword_diamond_stick": {
+      "textures": "textures/item/stone_sword_diamond_stick"
+    },
+    "sakarsmith:stone_pickaxe_wooden_stick": {
+      "textures": "textures/item/stone_pickaxe_wooden_stick"
+    },
+    "sakarsmith:wooden_rapier_stone_stick": {
+      "textures": "textures/item/wooden_rapier_stone_stick"
+    },
+    "sakarsmith:bone_sword_diamond_stick": {
+      "textures": "textures/item/bone_sword_diamond_stick"
+    },
+    "sakarsmith:gold_rapier_wooden_stick": {
+      "textures": "textures/item/gold_rapier_wooden_stick"
+    },
+    "sakarsmith:wooden_pickaxe_diamond_stick": {
+      "textures": "textures/item/wooden_pickaxe_diamond_stick"
+    },
+    "sakarsmith:iron_rapier_stone_stick": {
+      "textures": "textures/item/iron_rapier_stone_stick"
+    },
+    "sakarsmith:bone_pickaxe_golden_stick": {
+      "textures": "textures/item/bone_pickaxe_golden_stick"
+    },
+    "sakarsmith:diamond_rapier_stone_stick": {
+      "textures": "textures/item/diamond_rapier_stone_stick"
+    },
+    "sakarsmith:netherrite_pickaxe_iron_stick": {
+      "textures": "textures/item/netherrite_pickaxe_iron_stick"
+    },
+    "sakarsmith:wooden_rapier_wooden_stick": {
+      "textures": "textures/item/wooden_rapier_wooden_stick"
+    },
+    "sakarsmith:bone_pickaxe_diamond_stick": {
+      "textures": "textures/item/bone_pickaxe_diamond_stick"
+    },
+    "sakarsmith:iron_rapier_golden_stick": {
+      "textures": "textures/item/iron_rapier_golden_stick"
+    },
+    "sakarsmith:karmesin_rapier_netherrite_stick": {
+      "textures": "textures/item/karmesin_rapier_netherrite_stick"
+    },
+    "sakarsmith:golden_pickaxe_diamond_stick": {
+      "textures": "textures/item/golden_pickaxe_diamond_stick"
+    },
+    "sakarsmith:stone_pickaxe_karmesine_stick": {
+      "textures": "textures/item/stone_pickaxe_karmesine_stick"
+    },
+    "sakarsmith:golden_sword_karmesine_stick": {
+      "textures": "textures/item/golden_sword_karmesine_stick"
+    },
+    "sakarsmith:golden_pickaxe_golden_stick": {
+      "textures": "textures/item/golden_pickaxe_golden_stick"
+    },
+    "sakarsmith:karmesine_pickaxe_karmesine_stick": {
+      "textures": "textures/item/karmesine_pickaxe_karmesine_stick"
+    },
+    "sakarsmith:golden_sword_golden_stick": {
+      "textures": "textures/item/golden_sword_golden_stick"
+    },
+    "sakarsmith:netherrite_sword_karmesine_stick": {
+      "textures": "textures/item/netherrite_sword_karmesine_stick"
+    },
+    "sakarsmith:wooden_sword_bone_stick": {
+      "textures": "textures/item/wooden_sword_bone_stick"
+    },
+    "sakarsmith:karmesine_pickaxe_wooden_stick": {
+      "textures": "textures/item/karmesine_pickaxe_wooden_stick"
+    },
+    "sakarsmith:golden_pickaxe_karmesine_stick": {
+      "textures": "textures/item/golden_pickaxe_karmesine_stick"
+    },
+    "sakarsmith:wooden_sword_stone_stick": {
+      "textures": "textures/item/wooden_sword_stone_stick"
+    },
+    "sakarsmith:golden_pickaxe_netherrite_stick": {
+      "textures": "textures/item/golden_pickaxe_netherrite_stick"
+    },
+    "sakarsmith:wooden_pickaxe_golden_stick": {
+      "textures": "textures/item/wooden_pickaxe_golden_stick"
+    },
+    "sakarsmith:iron_sword_wooden_stick": {
+      "textures": "textures/item/iron_sword_wooden_stick"
+    },
+    "sakarsmith:netherrite_rapier_golden_stick": {
+      "textures": "textures/item/netherrite_rapier_golden_stick"
+    },
+    "sakarsmith:netherrite_sword_golden_stick": {
+      "textures": "textures/item/netherrite_sword_golden_stick"
+    },
+    "sakarsmith:golden_sword_iron_stick": {
+      "textures": "textures/item/golden_sword_iron_stick"
+    },
+    "sakarsmith:bone_rapier_iron_stick": {
+      "textures": "textures/item/bone_rapier_iron_stick"
+    },
+    "sakarsmith:netherrite_sword_bone_stick": {
+      "textures": "textures/item/netherrite_sword_bone_stick"
+    },
+    "sakarsmith:golden_sword_wooden_stick": {
+      "textures": "textures/item/golden_sword_wooden_stick"
+    },
+    "sakarsmith:karmesine_pickaxe_golden_stick": {
+      "textures": "textures/item/karmesine_pickaxe_golden_stick"
+    },
+    "sakarsmith:bone_rapier_wooden_stick": {
+      "textures": "textures/item/bone_rapier_wooden_stick"
+    },
+    "sakarsmith:bone_rapier_netherrite_stick": {
+      "textures": "textures/item/bone_rapier_netherrite_stick"
+    },
+    "sakarsmith:iron_pickaxe_karmesine_stick": {
+      "textures": "textures/item/iron_pickaxe_karmesine_stick"
+    },
+    "sakarsmith:wooden_sword_wooden_stick": {
+      "textures": "textures/item/wooden_sword_wooden_stick"
+    },
+    "sakarsmith:bone_sword_iron_stick": {
+      "textures": "textures/item/bone_sword_iron_stick"
+    },
+    "sakarsmith:karmesine_sword_diamond_stick": {
+      "textures": "textures/item/karmesine_sword_diamond_stick"
+    },
+    "sakarsmith:netherrite_rapier_karmesine_stick": {
+      "textures": "textures/item/netherrite_rapier_karmesine_stick"
+    },
+    "sakarsmith:netherrite_sword_iron_stick": {
+      "textures": "textures/item/netherrite_sword_iron_stick"
+    },
+    "sakarsmith:karmesine_ingot": {
+      "textures": "textures/item/karmesine_ingot"
+    },
+    "sakarsmith:karmesine_pickaxe_stone_stick": {
+      "textures": "textures/item/karmesine_pickaxe_stone_stick"
+    },
+    "sakarsmith:iron_rapier_iron_stick": {
+      "textures": "textures/item/iron_rapier_iron_stick"
+    },
+    "sakarsmith:diamond_pickaxe_stone_stick": {
+      "textures": "textures/item/diamond_pickaxe_stone_stick"
+    },
+    "sakarsmith:wooden_pickaxe_netherrite_stick": {
+      "textures": "textures/item/wooden_pickaxe_netherrite_stick"
+    },
+    "sakarsmith:netherrite_sword_wooden_stick": {
+      "textures": "textures/item/netherrite_sword_wooden_stick"
+    },
+    "sakarsmith:stone_sword_karmesine_stick": {
+      "textures": "textures/item/stone_sword_karmesine_stick"
+    },
+    "sakarsmith:diamond_sword_golden_stick": {
+      "textures": "textures/item/diamond_sword_golden_stick"
+    },
+    "sakarsmith:wooden_pickaxe_bone_stick": {
+      "textures": "textures/item/wooden_pickaxe_bone_stick"
+    },
+    "sakarsmith:stone_sword_netherrite_stick": {
+      "textures": "textures/item/stone_sword_netherrite_stick"
+    },
+    "sakarsmith:karmesine_pickaxe_iron_stick": {
+      "textures": "textures/item/karmesine_pickaxe_iron_stick"
+    },
+    "sakarsmith:karmesin_rapier_wooden_stick": {
+      "textures": "textures/item/karmesin_rapier_wooden_stick"
+    },
+    "sakarsmith:bone_sword_karmesine_stick": {
+      "textures": "textures/item/bone_sword_karmesine_stick"
+    },
+    "sakarsmith:karmesine_sword_golden_stick": {
+      "textures": "textures/item/karmesine_sword_golden_stick"
+    },
+    "sakarsmith:karmesine_pickaxe_netherrite_stick": {
+      "textures": "textures/item/karmesine_pickaxe_netherrite_stick"
+    },
+    "sakarsmith:diamond_sword_stone_stick": {
+      "textures": "textures/item/diamond_sword_stone_stick"
+    },
+    "sakarsmith:golden_sword_stone_stick": {
+      "textures": "textures/item/golden_sword_stone_stick"
+    },
+    "sakarsmith:karmesin_rapier_bone_stick": {
+      "textures": "textures/item/karmesin_rapier_bone_stick"
+    },
+    "sakarsmith:netherrite_rapier_stone_stick": {
+      "textures": "textures/item/netherrite_rapier_stone_stick"
+    },
+    "sakarsmith:netherrite_pickaxe_stone_stick": {
+      "textures": "textures/item/netherrite_pickaxe_stone_stick"
+    },
+    "sakarsmith:netherrite_sword_diamond_stick": {
+      "textures": "textures/item/netherrite_sword_diamond_stick"
+    },
+    "sakarsmith:diamond_sword_diamond_stick": {
+      "textures": "textures/item/diamond_sword_diamond_stick"
+    },
+    "sakarsmith:iron_rapier_bone_stick": {
+      "textures": "textures/item/iron_rapier_bone_stick"
+    },
+    "sakarsmith:stone_pickaxe_iron_stick": {
+      "textures": "textures/item/stone_pickaxe_iron_stick"
+    },
+    "sakarsmith:bone_rapier_stone_stick": {
+      "textures": "textures/item/bone_rapier_stone_stick"
+    },
+    "sakarsmith:karmesine_sword_wooden_stick": {
+      "textures": "textures/item/karmesine_sword_wooden_stick"
+    },
+    "sakarsmith:bone_pickaxe_iron_stick": {
+      "textures": "textures/item/bone_pickaxe_iron_stick"
+    },
+    "sakarsmith:karmesine_sword_netherrite_stick": {
+      "textures": "textures/item/karmesine_sword_netherrite_stick"
+    },
+    "sakarsmith:bone_pickaxe_stone_stick": {
+      "textures": "textures/item/bone_pickaxe_stone_stick"
+    },
+    "sakarsmith:diamond_pickaxe_netherrite_stick": {
+      "textures": "textures/item/diamond_pickaxe_netherrite_stick"
+    },
+    "sakarsmith:bone_sword_stone_stick": {
+      "textures": "textures/item/bone_sword_stone_stick"
+    },
+    "sakarsmith:stone_pickaxe_golden_stick": {
+      "textures": "textures/item/stone_pickaxe_golden_stick"
+    },
+    "sakarsmith:diamond_pickaxe_diamond_stick": {
+      "textures": "textures/item/diamond_pickaxe_diamond_stick"
+    },
+    "sakarsmith:karmesin_rapier_karmesine_stick": {
+      "textures": "textures/item/karmesin_rapier_karmesine_stick"
+    },
+    "sakarsmith:wooden_pickaxe_stone_stick": {
+      "textures": "textures/item/wooden_pickaxe_stone_stick"
+    },
+    "sakarsmith:diamond_pickaxe_golden_stick": {
+      "textures": "textures/item/diamond_pickaxe_golden_stick"
+    },
+    "sakarsmith:wooden_pickaxe_iron_stick": {
+      "textures": "textures/item/wooden_pickaxe_iron_stick"
+    },
+    "sakarsmith:karmesine_pickaxe_diamond_stick": {
+      "textures": "textures/item/karmesine_pickaxe_diamond_stick"
+    },
+    "sakarsmith:stone_sword_iron_stick": {
+      "textures": "textures/item/stone_sword_iron_stick"
+    },
+    "sakarsmith:bone_rapier_bone_stick": {
+      "textures": "textures/item/bone_rapier_bone_stick"
+    },
+    "sakarsmith:diamond_pickaxe_iron_stick": {
+      "textures": "textures/item/diamond_pickaxe_iron_stick"
+    },
+    "sakarsmith:karmesin_rapier_iron_stick": {
+      "textures": "textures/item/karmesin_rapier_iron_stick"
+    },
+    "sakarsmith:gold_rapier_diamond_stick": {
+      "textures": "textures/item/gold_rapier_diamond_stick"
+    },
+    "sakarsmith:iron_pickaxe_iron_stick": {
+      "textures": "textures/item/iron_pickaxe_iron_stick"
+    },
+    "sakarsmith:diamond_rapier_golden_stick": {
+      "textures": "textures/item/diamond_rapier_golden_stick"
+    },
+    "sakarsmith:wooden_sword_karmesine_stick": {
+      "textures": "textures/item/wooden_sword_karmesine_stick"
+    },
+    "sakarsmith:golden_pickaxe_iron_stick": {
+      "textures": "textures/item/golden_pickaxe_iron_stick"
+    },
+    "sakarsmith:diamond_rapier_iron_stick": {
+      "textures": "textures/item/diamond_rapier_iron_stick"
+    },
+    "sakarsmith:golden_pickaxe_stone_stick": {
+      "textures": "textures/item/golden_pickaxe_stone_stick"
+    },
+    "sakarsmith:iron_pickaxe_golden_stick": {
+      "textures": "textures/item/iron_pickaxe_golden_stick"
+    },
+    "sakarsmith:wooden_rapier_golden_stick": {
+      "textures": "textures/item/wooden_rapier_golden_stick"
+    },
+    "sakarsmith:iron_sword_karmesine_stick": {
+      "textures": "textures/item/iron_sword_karmesine_stick"
+    },
+    "sakarsmith:karmesine_sword_bone_stick": {
+      "textures": "textures/item/karmesine_sword_bone_stick"
+    },
+    "sakarsmith:bone_rapier_golden_stick": {
+      "textures": "textures/item/bone_rapier_golden_stick"
+    },
+    "sakarsmith:iron_pickaxe_netherrite_stick": {
+      "textures": "textures/item/iron_pickaxe_netherrite_stick"
+    },
+    "sakarsmith:netherrite_pickaxe_bone_stick": {
+      "textures": "textures/item/netherrite_pickaxe_bone_stick"
+    },
+    "sakarsmith:bone_pickaxe_netherrite_stick": {
+      "textures": "textures/item/bone_pickaxe_netherrite_stick"
+    },
+    "sakarsmith:netherrite_rapier_wooden_stick": {
+      "textures": "textures/item/netherrite_rapier_wooden_stick"
+    },
+    "sakarsmith:karmesine_pickaxe_bone_stick": {
+      "textures": "textures/item/karmesine_pickaxe_bone_stick"
+    },
+    "sakarsmith:diamond_rapier_wooden_stick": {
+      "textures": "textures/item/diamond_rapier_wooden_stick"
+    },
+    "sakarsmith:gold_rapier_stone_stick": {
+      "textures": "textures/item/gold_rapier_stone_stick"
+    },
+    "sakarsmith:gold_rapier_netherrite_stick": {
+      "textures": "textures/item/gold_rapier_netherrite_stick"
+    },
+    "sakarsmith:wooden_sword_netherrite_stick": {
+      "textures": "textures/item/wooden_sword_netherrite_stick"
+    },
+    "sakarsmith:diamond_sword_iron_stick": {
+      "textures": "textures/item/diamond_sword_iron_stick"
+    },
+    "sakarsmith:diamond_sword_bone_stick": {
+      "textures": "textures/item/diamond_sword_bone_stick"
+    },
+    "sakarsmith:netherrite_sword_stone_stick": {
+      "textures": "textures/item/netherrite_sword_stone_stick"
+    },
+    "sakarsmith:diamond_pickaxe_bone_stick": {
+      "textures": "textures/item/diamond_pickaxe_bone_stick"
+    },
+    "sakarsmith:stone_pickaxe_bone_stick": {
+      "textures": "textures/item/stone_pickaxe_bone_stick"
+    },
+    "sakarsmith:wooden_pickaxe_karmesine_stick": {
+      "textures": "textures/item/wooden_pickaxe_karmesine_stick"
+    },
+    "sakarsmith:wooden_pickaxe_wooden_stick": {
+      "textures": "textures/item/wooden_pickaxe_wooden_stick"
+    },
+    "sakarsmith:gold_rapier_golden_stick": {
+      "textures": "textures/item/gold_rapier_golden_stick"
+    },
+    "sakarsmith:diamond_sword_karmesine_stick": {
+      "textures": "textures/item/diamond_sword_karmesine_stick"
+    },
+    "sakarsmith:gold_rapier_iron_stick": {
+      "textures": "textures/item/gold_rapier_iron_stick"
+    },
+    "sakarsmith:golden_sword_bone_stick": {
+      "textures": "textures/item/golden_sword_bone_stick"
+    },
+    "sakarsmith:karmesine_sword_karmesine_stick": {
+      "textures": "textures/item/karmesine_sword_karmesine_stick"
+    },
+    "sakarsmith:iron_pickaxe_diamond_stick": {
+      "textures": "textures/item/iron_pickaxe_diamond_stick"
+    },
+    "sakarsmith:netherrite_pickaxe_wooden_stick": {
+      "textures": "textures/item/netherrite_pickaxe_wooden_stick"
+    },
+    "sakarsmith:karmesin_rapier_diamond_stick": {
+      "textures": "textures/item/karmesin_rapier_diamond_stick"
+    },
+    "sakarsmith:netherrite_pickaxe_netherrite_stick": {
+      "textures": "textures/item/netherrite_pickaxe_netherrite_stick"
+    },
+    "sakarsmith:netherrite_rapier_diamond_stick": {
+      "textures": "textures/item/netherrite_rapier_diamond_stick"
+    },
+    "sakarsmith:diamond_sword_wooden_stick": {
+      "textures": "textures/item/diamond_sword_wooden_stick"
+    },
+    "sakarsmith:netherrite_rapier_bone_stick": {
+      "textures": "textures/item/netherrite_rapier_bone_stick"
+    },
+    "sakarsmith:bone_rapier_karmesine_stick": {
+      "textures": "textures/item/bone_rapier_karmesine_stick"
+    },
+    "sakarsmith:stone_sword_wooden_stick": {
+      "textures": "textures/item/stone_sword_wooden_stick"
+    },
+    "sakarsmith:karmesin_rapier_golden_stick": {
+      "textures": "textures/item/karmesin_rapier_golden_stick"
+    },
+    "sakarsmith:stone_sword_golden_stick": {
+      "textures": "textures/item/stone_sword_golden_stick"
+    },
+    "sakarsmith:netherrite_rapier_iron_stick": {
+      "textures": "textures/item/netherrite_rapier_iron_stick"
+    },
+    "sakarsmith:karmesin_rapier_stone_stick": {
+      "textures": "textures/item/karmesin_rapier_stone_stick"
+    },
+    "sakarsmith:golden_sword_diamond_stick": {
+      "textures": "textures/item/golden_sword_diamond_stick"
+    },
+    "sakarsmith:diamond_sword_netherrite_stick": {
+      "textures": "textures/item/diamond_sword_netherrite_stick"
+    },
+    "sakarsmith:bone_rapier_diamond_stick": {
+      "textures": "textures/item/bone_rapier_diamond_stick"
+    }
+  }
+}
