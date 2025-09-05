@@ -8,7 +8,7 @@
     },
     "components": {
       "minecraft:icon": "textures/items/shiber_sword",
-      "minecraft:damage": 1111,  // 耐久値（必要に応じて調整）
+      "minecraft:damage": 1111,
       "minecraft:hand_equipped": true,
       "minecraft:cooldown": {
         "category": "sword",
